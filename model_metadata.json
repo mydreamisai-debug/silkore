@@ -1,0 +1,204 @@
+{
+    "features": [
+        "Market_encoded",
+        "Variety_encoded",
+        "Year",
+        "Month",
+        "Day",
+        "DayOfWeek",
+        "DayOfYear",
+        "DateOrdinal",
+        "AvgWeight_g",
+        "ShellWeight_g",
+        "ShellRatio_pct",
+        "FilamentLength_m",
+        "Reelability_pct",
+        "Moisture_pct",
+        "Defects_pct",
+        "Temp_C",
+        "Humidity_pct",
+        "Rainfall_mm",
+        "RawSilkPrice_RsKg"
+    ],
+    "markets": [
+        "Channapatna",
+        "Chintamani",
+        "Kanakapura",
+        "Kolar",
+        "Kollegal",
+        "Mysuru",
+        "Ramanagara",
+        "Siddalaghatta"
+    ],
+    "market_mapping": {
+        "Channapatna": 0,
+        "Chintamani": 1,
+        "Kanakapura": 2,
+        "Kolar": 3,
+        "Kollegal": 4,
+        "Mysuru": 5,
+        "Ramanagara": 6,
+        "Siddalaghatta": 7
+    },
+    "varieties": [
+        "Bivoltine",
+        "Crossbreed"
+    ],
+    "variety_mapping": {
+        "Bivoltine": 0,
+        "Crossbreed": 1
+    },
+    "defaults_by_variety": {
+        "Bivoltine": {
+            "AvgWeight_g": {
+                "min": 1.6,
+                "max": 2.35,
+                "mean": 1.9748340663734507
+            },
+            "ShellWeight_g": {
+                "min": 0.27,
+                "max": 0.57,
+                "mean": 0.4096181527389044
+            },
+            "ShellRatio_pct": {
+                "min": 17.0,
+                "max": 24.5,
+                "mean": 20.739304278288685
+            },
+            "FilamentLength_m": {
+                "min": 965.0,
+                "max": 1246.0,
+                "mean": 1106.4430227908836
+            },
+            "Reelability_pct": {
+                "min": 79.1,
+                "max": 96.0,
+                "mean": 88.97914834066373
+            },
+            "Moisture_pct": {
+                "min": 8.0,
+                "max": 14.0,
+                "mean": 10.982467013194723
+            },
+            "Defects_pct": {
+                "min": 0.0,
+                "max": 11.2,
+                "mean": 3.995441823270691
+            },
+            "Temp_C": {
+                "min": 24.0,
+                "max": 32.0,
+                "mean": 27.484606157536984
+            },
+            "Humidity_pct": {
+                "min": 45.0,
+                "max": 95.0,
+                "mean": 62.99234306277488
+            },
+            "Rainfall_mm": {
+                "min": 0.0,
+                "max": 46.8,
+                "mean": 9.909916033586565
+            },
+            "RawSilkPrice_RsKg": {
+                "min": 4800.0,
+                "max": 6800.0,
+                "mean": 5813.952419032387
+            }
+        },
+        "Crossbreed": {
+            "AvgWeight_g": {
+                "min": 1.6,
+                "max": 2.35,
+                "mean": 1.9783553421368547
+            },
+            "ShellWeight_g": {
+                "min": 0.28,
+                "max": 0.57,
+                "mean": 0.41142256902761104
+            },
+            "ShellRatio_pct": {
+                "min": 17.0,
+                "max": 24.5,
+                "mean": 20.79553821528611
+            },
+            "FilamentLength_m": {
+                "min": 966.0,
+                "max": 1246.0,
+                "mean": 1107.218887555022
+            },
+            "Reelability_pct": {
+                "min": 79.0,
+                "max": 96.0,
+                "mean": 89.08241296518608
+            },
+            "Moisture_pct": {
+                "min": 8.0,
+                "max": 14.0,
+                "mean": 11.014985994397758
+            },
+            "Defects_pct": {
+                "min": 0.0,
+                "max": 10.7,
+                "mean": 4.0245098039215685
+            },
+            "Temp_C": {
+                "min": 24.0,
+                "max": 32.0,
+                "mean": 27.532312925170068
+            },
+            "Humidity_pct": {
+                "min": 45.0,
+                "max": 95.0,
+                "mean": 62.90408163265305
+            },
+            "Rainfall_mm": {
+                "min": 0.0,
+                "max": 46.2,
+                "mean": 9.897999199679873
+            },
+            "RawSilkPrice_RsKg": {
+                "min": 4800.0,
+                "max": 6800.0,
+                "mean": 5796.945178071229
+            }
+        }
+    },
+    "grade_presets": {
+        "Premium": {
+            "AvgWeight_g": 2.16,
+            "ShellWeight_g": 0.48,
+            "ShellRatio_pct": 23.4,
+            "FilamentLength_m": 1173.0,
+            "Reelability_pct": 93.7,
+            "Moisture_pct": 9.8,
+            "Defects_pct": 1.5,
+            "RawSilkPrice_RsKg": 6400.0
+        },
+        "Standard": {
+            "AvgWeight_g": 1.98,
+            "ShellWeight_g": 0.41,
+            "ShellRatio_pct": 20.8,
+            "FilamentLength_m": 1107.0,
+            "Reelability_pct": 89.1,
+            "Moisture_pct": 11.0,
+            "Defects_pct": 4.0,
+            "RawSilkPrice_RsKg": 5805.0
+        },
+        "Economy": {
+            "AvgWeight_g": 1.79,
+            "ShellWeight_g": 0.34,
+            "ShellRatio_pct": 18.1,
+            "FilamentLength_m": 1041.0,
+            "Reelability_pct": 84.4,
+            "Moisture_pct": 12.2,
+            "Defects_pct": 6.0,
+            "RawSilkPrice_RsKg": 5203.8
+        }
+    },
+    "metrics": {
+        "r2": 0.8719200163595086,
+        "mae": 18.205872127283296,
+        "rmse": 21.348741693715542
+    }
+}
